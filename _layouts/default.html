@@ -34,7 +34,7 @@
     </style>
   <header id='hedr'>
     <a id='m_btn' onclick=menu() data-il=''></a>
-    <a href='/' id='logo' style="align-items:unset;"><img src="{{'/shine-decorator-logo.svg'|relative_url}}" alt="Shine Decor"></a>
+    <a href="{{'/'|relative_url}}" id='logo' style="align-items:unset;"><img src="{{'/shine-decorator-logo.svg'|relative_url}}" alt="Shine Decor"></a>
     <nav id='nav'>
       <a href='/' data-il=''>HOME</a>
       <a href="{{'/about'|relative_url}}" data-il=''>ABOUT</a>
@@ -48,11 +48,8 @@
   <div id="m_bg"></div>
   <!-- <div style='min-height:calc(100vh - var(--hfhit)*2);'> -->
   <main id='main' style="overflow:hidden ;">
-
-
     {{content}}
-
-</main>
+  </main>
 <!-- </div> -->
 <div style="background:radial-gradient(circle at center center, transparent,rgb(33,33,33)),repeating-linear-gradient(135deg, rgb(33,33,33) 0px, rgb(33,33,33) 2px,transparent 2px, transparent 10px,rgb(33,33,33) 10px, rgb(33,33,33) 11px,transparent 11px, transparent 21px),repeating-linear-gradient(45deg, rgb(47,47,47) 0px, rgb(47,47,47) 4px,transparent 4px, transparent 8px),hsl(0deg 0% 5%);display:flex;flex-wrap:wrap;justify-content: center;padding:20px">
 
@@ -98,14 +95,14 @@
 </style>
 
 <div id="fbox">
-  <a href="/"><img src="{{'/shine-decorator-logo.svg'|relative_url}}" alt="Shine Decor"></a>
+  <a href="{{'/'|relative_url}}"><img src="{{'/shine-decorator-logo.svg'|relative_url}}" alt="Shine Decor"></a>
   <p style="color:#d9d9d9;font-size:16px;">Shine Decor is a Best Party Decoration Service Provider in Zirakpur, chandigarh, Patiala More than 200+ VIP Client all over Punjab.</p>
 </div>
 
 
 
 <div id="fbox">
-  <a href="/"><p style="font-family:Georgia;">Contact</p></a>
+  <a href="#"><p style="font-family:Georgia;">Contact</p></a>
   <p style="color:#d9d9d9;font-size:16px;" data-il=''>Nabha Sahib, near Chandigarh, Zirakpur, Punjab 140603</p>
   <p style="color:#d9d9d9;font-size:16px;" data-il=''>Phone: +919041224906</p>
   <p style="color:#d9d9d9;font-size:16px;" data-il=''>Email: contact@shineballoondecor.in</p>
