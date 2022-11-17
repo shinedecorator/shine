@@ -23,7 +23,7 @@ h1{font-family:serif;font-family:Georgia;font-size:40px;}
 .m_activ #hedr{position:sticky;top:0}
 #hedr,#fotr{display:flex;height:var(--hfhit);background:white;align-items:center;}
 #m_btn{display:none;}
-#logo{display:flex;margin-right:10px;height:100%;align-items:center;font-weight: bold;color: #1a73e8;font-family: Georgia;font-size: 20px;}
+#logo{display:flex;margin-right:10px;height:100%;align-items:center;font-weight: bold;color: #CC0066;font-family: Georgia;font-size: 25px;}
 /* #logo img{height:60%;margin-right:10px;} */
 #nav{margin-left:auto;display: flex;}
 #nav a{color:hsl(0, 0%, 20%);letter-spacing:1px;padding:8px 20px;font-weight:bold;font-size:14px;}
@@ -53,7 +53,7 @@ h1{font-family:serif;font-family:Georgia;font-size:40px;}
 content: '';
 height:30%;
 width:85%;
-background:#4385f5;
+background:#F22800;
 position: absolute;
 bottom:5px;
 z-index: -1;
@@ -64,7 +64,7 @@ right: 0;
   margin:5px;
   padding:10px 15px;
   border-radius:5px;
-  background:#4385f5;
+  background:#F22800;
   color:white;
   font-weight:bold;
   display: inline-flex;
@@ -89,7 +89,7 @@ right: 0;
   content: '';
   height: 15px;
   width: 100px;
-  background:#4385f5;
+  background:#F22800;
   position: absolute;
   bottom: 0;
   z-index: -1;

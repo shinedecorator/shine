@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html id='html' lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Shine Balloon Decor - Party Decoration • Surprise Room Decoration • Baby Shower • Kids Game • Anniversary Decoration • Wedding Decoration • Banquet Hall Decoration • Patiala Balloon Decoration • Chandigarh Balloon Decoration • Zirakpur Balloon Decoration • Decoration with balloons</title>
+<meta content='Welcome To Shine Balloon Decor is provider all over Punjab / chandigarh. We Have a Wide Range Of Balloon For Everyone And Every Occasion. who we are About us About Our Company Welcome To Shine Balloon Decor is provider all over Punjab' name='description'/>
+<meta content='Shine Balloon Decor,Party Decoration,Surprise Room Decoration,Baby Shower,Kids Game,Anniversary Decoration,Wedding Decoration,Banquet Hall Decoration,Patiala Balloon Decoration,Chandigarh Balloon Decoration,Zirakpur Balloon Decoration,Decoration with balloons' name='keywords'/>
+<link href="{{'/favicon.ico'|relative_url}}" rel='icon' sizes='any'/>
+{% if page.canonical_url %}
+  {%- assign canonical_url = page.canonical_url %}
+{% else %}
+  {%- assign canonical_url = page.url | replace: "index.html", "" | absolute_url %}
+{% endif %}
+<link href="{{canonical_url}}" rel='canonical'/>
+<meta content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1' name='viewport'/>
+<link rel="stylesheet" href="{{'/style.css'|relative_url}}">
+</head>
+<body id='body'>
+  <style>
+    #ncal{
+      height: 40px;
+      width: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #F22800;
+      border-radius: 3px;
+      color: white;
+      margin-left: auto;
+    }
+    #ncal:hover{
+      background:#CC0066;
+    }
+    </style>
+  <header id='hedr'>
+    <a id='m_btn' onclick=menu() data-il=''></a>
+    <a href="{{'/'|relative_url}}" id='logo'>Shine balloon Decor</a>
+    <nav id='nav'>
+      <a href="{{'/'|relative_url}}" data-il=''>HOME</a>
+      <a href="{{'/about'|relative_url}}" data-il=''>ABOUT</a>
+      <!-- <a href='/gallery' data-il=''>GALLERY</a> -->
+      <a href="{{'/contact'|relative_url}}" data-il=''>CONTACT</a>
+    </nav>
+    <a href="tel:+919041224906" class='icon' id="ncal"></a>
+    <a href="https://wa.me/919041224906" class='icon' id="ncal" style="margin-left:15px;font-weight:bold;"></a>
+  </header>
+  <div id="bw_bg"></div>
+  <div id="m_bg"></div>
+  <!-- <div style='min-height:calc(100vh - var(--hfhit)*2);'> -->
+  <main id='main' style="overflow:hidden ;">
+    {{content}}
+  </main>
+<!-- </div> -->
+<div style="background:radial-gradient(circle at center center, transparent,rgb(33,33,33)),repeating-linear-gradient(135deg, rgb(33,33,33) 0px, rgb(33,33,33) 2px,transparent 2px, transparent 10px,rgb(33,33,33) 10px, rgb(33,33,33) 11px,transparent 11px, transparent 21px),repeating-linear-gradient(45deg, rgb(47,47,47) 0px, rgb(47,47,47) 4px,transparent 4px, transparent 8px),hsl(0deg 0% 5%);display:flex;flex-wrap:wrap;justify-content: center;padding:20px">
+
+<style>
+  #fbox{
+    width:400px;
+    /* background:#ffffff0d; */
+    padding:20px;
+    margin:20px;
+  }
+
+  #fbox>p{
+    display:flex;
+    margin-bottom:10px;
+  }
+  #fbox>p::before{
+    margin-right:10px;
+  }
+
+  #fbox a{
+    color:white;
+    margin:20px auto;
+    font-size:30px;
+    font-family:Georgia;
+    display:flex;
+    justify-content: center;
+  }
+  #fbox a p{
+    z-index: 0;
+    position: relative;
+
+}
+  #fbox a p::after{
+    content: '';
+    height:40%;
+    width:80%;
+    background:#F22800;
+    position: absolute;
+    bottom:0px;
+    z-index: -1;
+    right:-5px;
+  }
+</style>
+
+<div id="fbox">
+  <a href="{{'/'|relative_url}}">Shine balloon Decor</a>
+  <p style="color:#d9d9d9;font-size:16px;">Shine Balloon Decor is a Best Party Decoration Service Provider in Zirakpur, chandigarh, Patiala More than 200+ VIP Client all over Punjab.</p>
+</div>
+
+
+
+<div id="fbox">
+  <a href="#"><p style="font-family:Georgia;">Contact</p></a>
+  <p style="color:#d9d9d9;font-size:16px;" data-il=''>Nabha Sahib, near Chandigarh, Zirakpur, Punjab 140603</p>
+  <p style="color:#d9d9d9;font-size:16px;" data-il=''>Phone: +919041224906</p>
+  <p style="color:#d9d9d9;font-size:16px;" data-il=''>Email: contact@shineballoondecor.in</p>
+</div>
+
+
+</div>
+<footer id='fotr'>Shine Decor © <script>document.write((new Date).getFullYear())</script> • All Rights Reserved.</div></footer>
+</body>
+<script>
+  bw_bg.onclick=menu;
+  function menu(){body.classList.toggle('m_activ')}
+</script>
+</html>
